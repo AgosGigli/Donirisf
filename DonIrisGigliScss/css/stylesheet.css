@@ -1,0 +1,160 @@
+
+
+header {
+   
+    width:1400px;
+    height: 50px;
+    padding: auto;
+    background-color:#2D733E;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+menu ul li {
+    background-color:#328C49;
+}
+
+menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+menu ul a {
+  display:inline-block;
+  color:#F2F2F2;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+menu ul li {
+  position:relative;
+  float:center;
+  margin:0;
+  padding:0;
+}
+
+menu ul li:hover {
+  background:#2D733E
+}
+
+menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+menu ul ul li {
+  float:none;
+  width:150px
+}
+
+menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+
+menu ul li:hover > ul {
+  display:inline-block;
+}
+
+body {
+    justify-content: center;
+    width: auto;
+    padding:auto;
+    height:auto;
+    background-color:#328C49;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.carrusel{
+  background-color: #328C49;
+  justify-content:center;
+  padding: auto;}
+  
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-align:center;
+}
+
+.centro{
+  display:grid;
+  grid-template-columns:200px auto 200px;
+  grid-template-rows:350px auto 350px;
+
+}
+
+.a{
+  background-image:url(../assets/verde1.jpg) ;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  border:solid #2D733E 2px;
+
+}  
+.b{
+  text-align: center;
+  border:3px solid #2D733E;
+}
+
+.c{
+  background-image:url(../assets/bordo2.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  border:2px solid #2D733E;
+}
+
+
+footer {
+    text-align:end;
+    width: auto;
+    padding:auto;
+    height: auto;
+    background-color:#2D733E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 576px){
+  .menu ul {
+    display: grid;
+    justify-content: center;
+    background-color: #328C49;
+  }
+ body{
+    display:grid;
+    justify-content:center;
+    background-color: #328C49;
+  }
+header{
+  width: 580px;
+  height: 50px;
+  display: grid;
+  text-align: center;
+  background-color: #2D733E;
+}
+
+.a{
+padding: auto;
+height: auto;
+width: auto;
+background-color: #328C49;
+}
+.c{
+  padding:auto;
+  height: auto;
+  width: auto;
+  background-color: #328C49;
+}
+}
+@media screen {min-width}
